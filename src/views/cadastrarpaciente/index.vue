@@ -9,10 +9,6 @@
           <el-input v-model="form.name" />
         </el-form-item>
       </div>
-      <el-form-item label="Especialidade">
-        <el-input v-model="form.especialidade" />
-      </el-form-item>
-
       <el-form-item label="E-mail">
         <el-input v-model="form.email" />
       </el-form-item>
