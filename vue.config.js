@@ -12,7 +12,7 @@ const port = process.env.port || process.env.npm_config_port || 3000
 
 module.exports = {
 
-  publicPath: '/',
+  publicPath: '/app-saude/',
   outputDir: 'dist',
   assetsDir: 'static',
   lintOnSave: process.env.NODE_ENV === 'development',
